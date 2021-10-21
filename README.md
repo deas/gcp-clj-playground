@@ -1,4 +1,4 @@
-# gpp-clj-playground
+# gcp-clj-playground
 
 FIXME: my new library.
 
@@ -8,7 +8,7 @@ FIXME: write usage documentation!
 
 Invoke a library API function from the command-line:
 
-    $ clojure -X deas.gpp-clj-playground/foo :a 1 :b '"two"'
+    $ clojure -X deas.gcp-clj-playground/foo :a 1 :b '"two"'
     {:a 1, :b "two"} "Hello, World!"
 
 Run the project's tests (they'll fail until you edit them):
@@ -34,7 +34,7 @@ variables (requires the `pom.xml` file):
 
     $ clojure -X:deploy
 
-Your library will be deployed to net.clojars.deas/gpp-clj-playground on clojars.org by default.
+Your library will be deployed to net.clojars.deas/gcp-clj-playground on clojars.org by default.
 
 If you don't plan to install/deploy the library, you can remove the
 `pom.xml` file but you will also need to remove `:sync-pom true` from the `deps.edn`

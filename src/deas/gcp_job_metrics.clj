@@ -1,4 +1,4 @@
-(ns deas.gpp-job-metrics
+(ns deas.gcp-job-metrics
   (:import (com.google.api Metric MonitoredResource)
            (com.google.cloud.monitoring.v3 MetricServiceClient)
            (com.google.monitoring.v3 CreateTimeSeriesRequest

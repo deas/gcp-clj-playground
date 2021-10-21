@@ -12,10 +12,10 @@
                "-d" "test"]}
   :jar {:replace-deps {com.github.seancorfield/depstar {:mvn/version "2.0.211"}}
         :exec-fn hf.depstar/jar
-        :exec-args {:jar "gpp-clj-playground.jar" :sync-pom true}}
+        :exec-args {:jar "gcp-clj-playground.jar" :sync-pom true}}
   :install {:replace-deps {slipset/deps-deploy {:mvn/version "0.1.5"}}
             :exec-fn deps-deploy.deps-deploy/deploy
-            :exec-args {:installer :local :artifact "gpp-clj-playground.jar"}}
+            :exec-args {:installer :local :artifact "gcp-clj-playground.jar"}}
   :deploy {:replace-deps {slipset/deps-deploy {:mvn/version "0.1.5"}}
            :exec-fn deps-deploy.deps-deploy/deploy
-           :exec-args {:installer :remote :artifact "gpp-clj-playground.jar"}}}}
+           :exec-args {:installer :remote :artifact "gcp-clj-playground.jar"}}}}

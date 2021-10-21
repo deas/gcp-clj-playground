@@ -1,6 +1,6 @@
-(ns deas.gpp-clj-playground-test
+(ns deas.gcp-clj-playground-test
   (:require [clojure.test :refer :all]
-            [deas.gpp-clj-playground :refer :all]))
+            [deas.gcp-clj-playground :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."
